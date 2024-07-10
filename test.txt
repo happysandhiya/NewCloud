@@ -1,0 +1,12 @@
+Puji syukur kehadirat Allah SWT, atas segala limpahan rahmat, nikmat serta karunia-Nya 
+yang tak ternilai dan tak dapat dihitung sehingga kami dapat menyelesaikan penyusunan 
+“Panduan Penanganan Insiden Malicious Software (Malware)”. Panduan ini disusun 
+dalam rangka memberikan acuan bagi pihak yang berkepentingan dalam penanganan 
+insiden malware. Panduan ini berisikan langkah-langkah yang harus diambil apabila 
+terjadi serangan malware, yang dimulai dari tahap persiapan sampai dengan tahap 
+pembuatan laporan dari penanganan serangan. Panduan ini tentu saja masih banyak 
+kekurangan dan masih jauh dari kesempurnaan karena keterbatasan ilmu dan referensi 
+kami. Untuk itu, kami selalu berusaha melakukan evaluasi dan perbaikan secara berkala 
+agar bisa mencapai hasil yang lebih baik lagi. 
+Akhir kata, kami ucapkan terima kasih kepada segala pihak yang telah membantu dalam 
+penyusunan penduan ini.
