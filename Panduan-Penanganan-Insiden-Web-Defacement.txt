@@ -1,0 +1,417 @@
+Badan Siber dan
+Sandi Negara
+
+PANDUAN
+PENANGANAN INSIDEN WEB DEFACEMENT
+
+DIREKTORAT
+PEMERINTAH
+
+PENANGGULANGAN
+
+DAN
+
+PEMULIHAN
+
+DEPUTI BIDANG PENANGGULANGAN DAN PEMULIHAN
+BADAN SIBER DAN SANDI NEGARA
+T.A 2018VERSI DOKUMEN
+
+Badan Siber dan
+Sandi Negara
+
+VERSI DOKUMEN
+No
+
+Tanggal
+
+Versi Dokumen
+
+Oleh
+
+Keterangan
+
+1
+
+Desember 2018
+
+Versi 0
+
+Deputi III
+
+-
+
+Panduan Penanganan Insiden
+
+Hal
+
+I
+
+Badan Siber dan
+Sandi Negara
+
+VERSI DOKUMEN
+
+Panduan Penanganan Insiden
+
+Hal
+
+II
+
+Badan Siber dan
+Sandi Negara
+
+KATA PENGANTAR
+
+Puji syukur kehadirat Allah SWT, atas segala limpahan rahmat, nikmat serta
+karunia-Nya yang tak ternilai dan tak dapat dihitung sehingga kami dapat
+menyelesaikan penyusunan “Panduan Penanganan Insiden Serangan Web
+Defacement”. Panduan ini disusun dalam rangka memberikan acuan bagi pihak
+yang berkepentingan dalam penanganan insiden serangan Web Defacement.
+Panduan ini berisikan langkah-langkah yang harus diambil apabila terjadi
+serangan Web Defacement, yang dimulai dari tahap persiapan sampai dengan
+tahap pembuatan laporan dari penanganan serangan. Panduan ini tentu saja masih
+banyak kekurangan dan masih jauh dari kesempurnaan karena keterbatasan ilmu
+dan referensi kami. Untuk itu, kami selalu berusaha melakukan evaluasi dan
+perbaikan secara berkala agar bisa mencapai hasil yang lebih baik lagi.
+Akhir kata, kami ucapkan terima kasih kepada segala pihak yang telah membantu
+dalam penyusunan penduan ini.
+
+Jakarta,
+
+Desember 2018
+
+Deputi III,
+
+Asep Chaerudin, M.A.S.S
+
+Panduan Penanganan Insiden
+
+Hal
+
+III
+
+Badan Siber dan
+Sandi Negara
+
+DAFTAR ISI
+
+1. TUJUAN ...............................................................................................................1
+2. RUANG LINGKUP .............................................................................................2
+3. PROSEDUR PENANGANAN WEB DEFACEMENT .....................................2
+3.1 Persiapan .........................................................................................................3
+3.2 Identifikasi dan Analisis.................................................................................5
+3.3 Mitigasi.............................................................................................................6
+3.4 Penghapusan Konten ......................................................................................6
+3.5 Pemulihan ........................................................................................................7
+
+Panduan Penanganan Insiden
+
+Hal
+
+III
+0
+
+Badan Siber dan
+Sandi Negara
+
+PROSEDUR PENANGANAN INSIDEN
+WEB DEFACEMENT
+
+1. TUJUAN
+Penanganan yang terencana dan terorganisir sangatlah diperlukan dalam
+hal terjadinya insiden web defacement, supaya hal tersebut dapat dilakukan,
+maka diperlukan adanya suatu prosedur yang standar untuk melakukan
+penanganan terhadap insiden tersebut. Secara umum tujuan prosedur standar
+ini adalah untuk memberikan arahan secara best practices dalam penanganan
+insiden web defacement, sedangkan secara khusus adalah sebagai berikut :
+a. Memastikan adanya sumber daya yang memadai untuk menangani insiden
+yang terjadi
+b. Menjamin pihak-pihak yang bertanggung jawab dalam penanganan
+insiden bekerja sesuai dengan tugas dan kewajiban masing-masing
+c. Menjamin aktivitas dari penanganan insiden dapat terkoordinasi dengan
+baik
+d. Melakukan pengumpulan informasi yang akurat
+e. Sharing pengetahuan dan pengalaman di antara anggota tim penanganan
+insiden
+f. Meminimalisir dampak dari insiden yang terjadi.
+g. Mencegah adanya serangan lanjutan dan mencegah kerusakan agar tidak
+lebih meluas
+
+Panduan Penanganan Insiden
+
+Hal
+
+1
+
+Badan Siber dan
+Sandi Negara
+
+2. RUANG LINGKUP
+Prosedur standar penanganan insiden ini berisi langkah-langkah yang
+harus diambil apabila terjadi insiden web defacement, yang dimulai dari tahap
+persiapan sampai dengan tahap pembuatan laporan dari penanganan insiden.
+web defacement dapat terjadi pada semua halaman web, baik milik sektor
+pemerintah, infrastruktur informasi kritikal nasional dan ekonomi digital.
+Prosedur standar penanganan insiden ini dapat dijadikan acuan bagi semua
+individu atau tim yang bertindak sebagai penanggung jawab/administrator dari
+suatu web server.
+
+3. PROSEDUR PENANGANAN WEB DEFACEMENT
+Terdapat 2 (dua) cara bagi institusi/perorangan untuk meletakan suatu
+halaman web, yaitu meletakan pada server yang dikelola sendiri atau
+meletakan halaman webnya pada web hosting. Bagi yang meletakkan halaman
+webnya pada web hosting, maka apabila terjadi web deface harus melakukan
+koordinasi dengan pihak web hosting. Koordinasi ini ditujukan untuk
+memudahkan penanganan dari web yang telah ter-deface. Setiap pengelolah
+web hosting seharusnya memiliki prosedur untuk menangani insiden web
+defacement. Secara umum tahap-tahap dalam menangani suatu insiden dapat
+digambarkan sebagai berikut :
+
+Panduan Penanganan Insiden
+
+Hal
+
+2
+
+Badan Siber dan
+Sandi Negara
+
+Persiapan
+
+Identifikasi &
+Analisis
+
+Mitigasi
+
+Penghapusan
+Konten
+Pemulihan
+
+Tindak Lanjut
+
+Gambar 1. Tahap Penanganan Insiden
+Berdasarkan gambaran tahap-tahap penanganan suatu insiden, dapat dibuat
+suatu prosedur standar untuk melakukan tindakan apabila terjadi suatu insiden.
+Prosedur standar penanganan insiden web deface dapat diuraikan sebagai berikut :
+3.1.Persiapan
+Dalam melakukan penanganan insiden, perlu dilakukannya tahapan
+persiapan yang bertujuan untuk mempersiapkan segala sesuatu yang
+dibutuhkan pada saat penanganan insiden web defacement. Adapun prosedur
+sebagai berikut :
+
+Panduan Penanganan Insiden
+
+Hal
+
+3
+
+Badan Siber dan
+Sandi Negara
+
+a) Pembentukan tim penanganan insiden perlu dilakukan baik berasal dari
+institusi yang mengalami insiden (internal) atau juga bisa berasal dari luar
+institusi (eksternal) jika memang sangat diperlukan;
+b) Menyiapkan dokumen yang dibutuhkan dalam proses penanganan insiden.
+Dokumen ini antara lain adalah :
+- Standar Operation Procedure;
+- Form-form yang akan digunakan : form penanganan insiden, form
+chain of custody;
+- Gambaran diagram terbaru yang menggambarkan hubungan antar
+komponen-komponen aplikasi yang membangun website (web server,
+aplikasi web, para user, diagram network);
+- Dokumentasi dari sistem operasi, aplikasi, protokol dan anti virus yang
+terdapat pada web server.
+c) Lakukan koordinasi insiden dengan tim yang dapat menangani secara
+teknis, koordinasi dengan tim CSIRT ataupun Point of Contact untuk
+mendapatkan informasi tambahan dalam penanangan insiden;
+d) Menyimpan bukti insiden antara lain screenshot insiden web defacement,
+log server ataupun log perangkat pendukung server. Jika menemukan file
+yang mencurigakan dapat dilakukan pendokumentasian file tersebut.
+Untuk kegiatan forensik, dapat juga dilakukan proses imaging baik seluruh
+storage server ataupun memori (RAM) yang digunakan;
+e) Menentukan tempat (ruangan) untuk menangani insiden baik kegiatan
+rapat tim maupun kegiatan analisis insiden;
+
+Panduan Penanganan Insiden
+
+Hal
+
+4
+
+Badan Siber dan
+Sandi Negara
+
+f) Menyiapkan tool dan media yang dibutuhkan untuk menangani insiden.
+Tools yang dapat disiapkan antara lain Scanning Tools, Forensic Tools,
+dan Monitoring Tools. Media dapat berupa storage external.
+3.2.Identifikasi dan Analisis
+Pada tahap ini dilakukan proses identifikasi untuk memastikan bahwa
+insiden yang telah terjadi dapat diketahui sumber serangannya. Selain itu juga
+untuk mengumpulkan informasi yang cukup tentang insiden tersebut sehingga
+tim dapat memprioritaskan langkah selanjutnya dalam menangani insiden.
+Dalam prosed identifikasi, prosedur yang dilakukan adalah sebagai berikut :
+a) Memeriksa file-file yang bersifat statis, apakah terjadi perubahan dan
+kapan perubahan itu terjadi. Memeriksa semua link yang ada pada halaman
+web (src, meta, css, script);
+b) Memeriksa semua log file. File log yang dapat diperiksa antara lain Error
+Log, Access Log, Database Log, Auth Log, Install Log, Event Log,
+Firewall Log, IDS/IPS Log, Switch/Router Log;
+c) Memeriksa folder pada website yang bersifat publik (akses write, biasanya
+untuk menyimpan file upload) untuk indikasi file backdoor, malware,
+trojan, atau maliciuous file lainnya;
+d) Memeriksa kembali kode sql yang digunakan pada web aplikasi, apakah
+terdapat bug pada code tersebut. Memeriksa pada implementasi fitur
+Login/Logout, Koneksi Database, dan Menampilkan Isi Database;
+e) Memeriksa version setiap aplikasi/library yang digunakan. Periksa versi
+web server, versi aplikasi dan versi database;
+
+Panduan Penanganan Insiden
+
+Hal
+
+5
+
+Badan Siber dan
+Sandi Negara
+
+f) Memeriksa setiap koneksi yang terhubung ke server tersebut;
+g) Memeriksa layanan/service yang sedang berjalan. Periksa semua port
+yang terbuka, periksa cronjob (service otomatis harian), periksa last login
+untuk user, periksa history;
+h) Dalam melakukan tahapan ini, tools yang dapat digunakan antara lain :
+NMap, Nikto, Accunetic, Nessus.
+3.3.Mitigasi
+Untuk mengurangi dampak peningkatan resiko (mitigasi) perlu dilakukan
+hal-hal sebagai berikut :
+a) Perlu dilakukan pembangunan website sementara agar publikasi informasi
+pada website tetap berjalan. Atau dapat juga dilakukan pembangunan site
+under maintenance;
+b) Lakukan backup sistem, untuk keperluan forensik ataupun untuk
+mengumpulkan bukti-bukti insiden;
+c) Pembatasan akses terhadap sumber serangan yang ditemukan antara lain
+sumber IP, sumber port, serta akun user yang digunakan oleh penyerang
+3.4.Penghapusan Konten
+Setelah ditemukan aplikasi ataupun file yang bersifat malicious, maka
+tahap selanjutnya adalah melakukan penghapusan konten tersebut. Adapun
+tahapannya adalah sebagai berikut :
+a) Lakukan hapus file malicious, antara lain : file defacement, file backdoor,
+file rootkit ataupun file malware;
+b) Lakukan uninstall aplikasi yang ditemukan sebagai aplikasi malicious;
+Panduan Penanganan Insiden
+
+Hal
+
+6
+
+Badan Siber dan
+Sandi Negara
+
+3.5.Pemulihan
+Pada tahapan ini bertujuan untuh memulihkan kembali halaman web
+kepada keadaan semula. Prosedur yang dapat dilakukan adalah sebagai berikut
+:
+a) Mengaktifkan (me-restore) file-file yang telah di-backup. File dapat
+berupa file pada web server, file database. Dan gunakan aplikasi checksum
+sebagai data integrity checker pada file backup tersebut;
+b) Lakukan update/upgrade/patch semua aplikasi yang digunakan pada web
+server. Jika menggunakan CMS, update versi web aplikasi, plugins,
+themes yang digunakan. Jika menggunakan API dapat melakukan update
+library yang digunakan. Selain itu perlu dilakukan update rules pada
+konfigurasi keamanan yang digunakan;
+c) Lakukan automatic updates pada setiap aplikasi yang digunakan;
+d) Lakukan pembaruan seluruh akun yang digunakan baik pada sistem
+operasi, web aplikasi;
+e) Lakukan hardening server ataupun aplikasi yang digunakan seperti
+memasang Web Application Firewall (WAF), memasang aplikasi antidefacement (DotDefender, Nagios, Webguard);
+f) Pisahkan antara file webserver dengan file database pada partisi yang
+digunakan.
+3.6.Tindak Lanjut
+Sebagai tindak lanjut penanganan insiden, perlu dilakukan hal-hal sebagai
+berikut :
+
+Panduan Penanganan Insiden
+
+Hal
+
+7
+
+Badan Siber dan
+Sandi Negara
+
+a) Lakukan uji keamanan web server dan aplikasi;
+b) Memetakan kerentanan yang ditemukan, baik rentan terhadap serangan
+SQL Injection, XSS, Misconfiguration, atau sudah deprecated/usangnya
+versi aplilkasi yang digunakan;
+c) Membuat semua dokumentasi dan laporan terkait kegiatan dan waktu yang
+dibutuhkan pada proses incident handling yang telah dilakukan;
+d) Menuliskan tools apa saja yang digunakan dalam membatu proses incident
+handling;
+e) Menuliskan bukti-bukti yang ditemukan, hal ini terkait dengan proses
+hukum kedepannya;
+f) Memberikan analisa dan penjelasan apa yang harus dilakukan sehingga
+insiden serupa tidak terulang kembali;
+g) Membuat evaluasi dan rekomendasi.
+
+Panduan Penanganan Insiden
+
+Hal
+
+8
+
+Badan Siber dan
+Sandi Negara
+
+LAMPIRAN I - BAGAN PENANGANAN INSIDEN
+
+A. TAHAP PERSIAPAN
+
+Panduan Penanganan Insiden
+
+Hal
+
+9
+
+Badan Siber dan
+Sandi Negara
+
+B. TAHAP IDENTIFIKASI DAN ANALISIS
+
+Panduan Penanganan Insiden
+
+Hal
+
+10
+
+Badan Siber dan
+Sandi Negara
+
+C. TAHAP MITIGASI
+
+D. TAHAP PENGHAPUSAN KONTEN
+
+Panduan Penanganan Insiden
+
+Hal
+
+11
+
+Badan Siber dan
+Sandi Negara
+
+E. TAHAP PEMULIHAN
+
+F. TAHAP TINDAK LANJUT
+
+Panduan Penanganan Insiden
+
+Hal
+
+12
+
+Badan Siber dan
+Sandi Negara
+
+LAMPIRAN II - STANDAR OPERATION PROCEDURE (SOP)
+
+
